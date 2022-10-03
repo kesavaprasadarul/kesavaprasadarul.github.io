@@ -1,0 +1,14 @@
+.container {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    max-height: 100vh;
+ }
+  
+.child {
+    scroll-snap-align: center;
+}
+
+.stop {
+    scroll-snap-stop: always;
+}

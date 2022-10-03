@@ -1,0 +1,234 @@
+@import url('gallery.css');
+@import url('text.css');
+@import url('scrollsnap.css');
+
+
+#secondsub{
+    animation-delay: 2s;
+}
+
+#thirdsub{
+    animation-delay: 4s;
+}
+#fourthsub{
+    animation-delay: 6s;
+
+}
+
+#fifthsub{
+    animation-delay: 8s;
+
+}
+
+
+@keyframes head {
+    0% { opacity:0;}
+    20% {opacity: 1;}
+    30% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.headtext{
+    animation-name: head;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+/* experiements above */
+
+body{
+    margin: 0;
+}
+
+.showcase{
+    display: flex;
+    Height: 90vh;
+    font-family: noto;
+    font-weight: 850;
+    object-fit: cover;
+    align-content: flex-end;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgba(255,255,255,1);
+    top: 0%;
+}
+
+.center-v{
+    align-self: center;
+}
+
+.mleft{
+    margin-left: 12px;
+}
+
+.mright{
+    margin-right: 12px;
+}
+
+.mbottom{
+    margin-bottom: 12px;
+}
+
+.mtop{
+    margin-top: 12px;
+}
+
+.mleft-l{
+    margin-left: 48px;
+}
+
+.mright-l{
+    margin-right: 48px;
+}
+
+.mbottom-l{
+    margin-bottom: 48px;
+}
+
+.mtop-l{
+    margin-top: 48px;
+}
+
+
+
+.align.center{
+    text-align: center;
+}
+
+
+/* Old Stuff */
+
+
+p {
+    font-family: manrope;
+    font-weight: 250;
+}
+
+div.text{
+    color: white;
+    margin: 2em;
+}
+
+div.text.content{
+    font-family: manrope;
+    z-index: 0;
+    top: 0;
+    padding: 1.5em;
+    border: 1.5em;
+    border-style: solid;
+    border-color: rgba(66,133,244,0.0);
+    backdrop-filter: blur(10px) saturate(200%) brightness(40%);
+    background-color: rgba(66, 134, 244, 0.556);
+    margin: 0%;
+    text-align: justify;
+    width: 40%;
+}
+
+div.blank50width{
+    width: 60%;
+}
+
+div.viewport-inner.balloon1{
+        background-image: url('https://images.unsplash.com/photo-1567607365703-a8469a1020c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8YmFsbG9vbnx8fHx8fDE2NjQ3MzY3ODg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080');
+
+}
+
+div.viewport-inner.balloon2{
+    background-image: url('https://images.unsplash.com/photo-1606154427799-2f43b8c81742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8YmFsbG9vbnx8fHx8fDE2NjQ3MjkzNTI&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080');
+
+}
+
+
+
+div.viewport-inner{
+    display: flex;
+    font-family: manrope;
+    font-weight: 850;
+    padding: 1.5em;
+    z-index: 2;
+    top: 0%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1em;
+    border-style: solid;
+    border-color: white;
+}
+
+
+div.viewport{
+    display: flex;
+    Height: 100%;
+    font-family: manrope;
+    font-weight: 850;
+    object-fit: cover;
+    align-content: flex-end;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    padding: 1em;
+    margin: 0.5em;
+    background-color: rgba(255,255,2555,1);
+    top: 0%;
+}
+
+
+.bold.large{
+    font-family: manrope;
+    font-variation-settings: 'wght' 100;
+    font-size: 64;
+    margin-left: 48px;
+    text-align: left;
+}
+
+.bold.sublarge{
+    font-family: manrope;
+    font-variation-settings: 'wght' 550;
+    font-size: 24;
+    margin-left: 48px;
+    text-align: left;
+    opacity: 0.4;
+}
+
+.t1 {
+    font-family: 'manrope';
+    font-variation-settings: 'wght' 100;
+  }
+  
+  .t2 {
+    font-family: 'manrope';
+    font-variation-settings: 'wght' 400;
+  }
+  
+  .t3 {
+    font-family: 'manrope';
+    font-variation-settings: 'wght' 500;
+  }
+  
+  .t4 {
+    font-family: 'manrope';
+    font-variation-settings: 'wght' 650;
+  }
+  @keyframes weight {
+    50% { font-variation-settings: 'wght' 900; }
+  }
+
+div.sticky-img{
+    background-image: url('https://images.unsplash.com/photo-1606154427799-2f43b8c81742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8YmFsbG9vbnx8fHx8fDE2NjQ3MjkzNTI&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080');
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}

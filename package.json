@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "css-scroll-snap-polyfill": "^0.1.2",
+    "express": "^4.18.1",
+    "http-server": "^14.1.1"
+  }
+}
