@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 
 .manrope{
     font-family: manrope;
     font-stretch: condensed;
+}
+
+.montserrat{
+    font-family: Montserrat;
 }
 
 .mono{
@@ -15,6 +28,11 @@
 .bold{
     font-variation-settings: 'wght' 800;
     font-weight: 800;
+}
+
+.semibold{
+    font-variation-settings: 'wght' 500;
+    font-weight: 500;
 }
 
 .light{
@@ -32,4 +50,12 @@
 
 .medium{
     font-size: 24;
+}
+
+.submedium{
+    font-size: 20;
+}
+
+.small{
+    font-size: 12;
 }

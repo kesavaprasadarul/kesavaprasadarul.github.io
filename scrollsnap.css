@@ -1,13 +1,15 @@
 .container {
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     scroll-snap-stop: always;
     max-height: 100vh;
  }
   
 .child {
-    scroll-snap-align: center;
+    scroll-snap-align: start ;
+    min-height: 95vh;
 }
+
 
 .stop {
     scroll-snap-stop: always;

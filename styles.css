@@ -73,13 +73,9 @@ ul{
     margin-left: 52px;
     margin-right: 52px;
     margin-top: 52px;
-    /* display: flex; */
     align-content: center;
     align-self: stretch;
     align-items: center;
-    /* flex-wrap: nowrap;
-    flex-direction: row;
-    flex: 1 1 100%; */
     gap: 96px;
     justify-content:flex-start;
 }
@@ -101,6 +97,31 @@ ul{
     top: 0%;
 }
 
+.nomargin{
+    margin:0px !important;
+}
+
+.flex{
+    display: flex;
+}
+
+.header.start{
+    margin-left: 48px;
+}
+
+.header.name{
+    margin-left: 44px; 
+    margin-top: 8px;
+}
+
+.runner{
+    position:absolute;
+}
+
+.top0{
+    top: 0%;
+}
+
 .showcase-top{
     display: flex;
     min-height: 90vh;
@@ -115,6 +136,53 @@ ul{
     margin: 1em;
     background-color: rgba(34,34,34,1);
     top: 0%;
+}
+
+.sidebar{
+    align-self: baseline; 
+    position: sticky; 
+    top: 10%;
+}
+
+.sidebar.subtext{
+    opacity: 0.5; 
+    font-size: 12px; 
+    font-weight: 100;
+}
+
+.feature-content.main{
+    display: flex;
+    flex: 1 1 100%; 
+    flex-direction: column; 
+    align-items: stretch;
+}
+
+.feature-content{ 
+    display: flex; 
+    align-items: center;
+}
+
+.feature.header{
+    font-weight:200; 
+    opacity: 0.5;  
+    margin-top: 6px;
+}
+
+.feature.text{
+    margin-top: 8px; 
+    margin-bottom: 48px;
+}
+
+.feature.explain{
+    opacity: 0.5 !important;
+    margin-top: 4px;
+}
+
+.feature.more{
+    opacity: 0.5 !important; 
+    color: white;
+    margin-top: 4px; 
+    padding: 0px;
 }
 
 .gradient {
