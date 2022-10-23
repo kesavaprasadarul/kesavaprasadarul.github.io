@@ -1,80 +1,88 @@
 
-@media only screen and (max-width: 768px){
+@media only screen and ((max-device-width: 750px) or (max-width: 750px)){
+    .container {
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-snap-stop: always;
+        max-height: 100vh;
+     }
+      
+   
     .large{
-        font-size: 2.5em;
+        font-size: 8em;
     }
     
     .sublarge{
-        font-size: 2em;
+        font-size: 6em;
     }
     
     .medium{
-        font-size: 1.4em;
+        font-size: 3em;
     }
     
     .submedium{
-        font-size: 1.25em;
+        font-size: 2.5em;
     }
     
     .small{
-        font-size: 0.75em;
+        font-size: 1.8em;
     }
 
     .mleft{
-        margin-left: 0.5em;
+        margin-left: 0.75em;
     }
     
     .mright{
-        margin-right: 0.5em;
+        margin-right: 0.75em;
     }
     
     .mbottom{
-        margin-bottom: 0.5em;
+        margin-bottom: 0.75em;
     }
     
     .mtop{
-        margin-top: 0.5em;
-    }
-    
-    
-    .mtop-s{
-        margin-top: 0.25em;
+        margin-top: 0.75em;
     }
     
     .mleft-l{
-        margin-left: 1.5em;
+        margin-left: 3em;
     }
     
     .mright-l{
-        margin-right: 1.5em;
+        margin-right: 3em;
     }
     
     .mbottom-l{
-        margin-bottom: 1.5em;
+        margin-bottom: 3em;
     }
     
     .mtop-l{
-        margin-top: 1.5em;
+        margin-top: 3em;
     }
     
     .mvert{
-        margin-bottom: 0.5em;
-        margin-top: 0.5em;
+        margin-bottom: 0.75em;
+        margin-top: 0.75em;
     }
     
     .mhorz{
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+        margin-left: 0.75em;
+        margin-right: 0.75em;
     }
     
     .mvert-l{
-        margin-bottom: 1.5em;
-        margin-top: 1.5em;
+        margin-bottom: 3em;
+        margin-top: 3em;
+    }
+    
+    .pvert-l{
+        padding-bottom: 3em;
+        padding-top: 3em;
     }
     
     .mhorz-l{
-        margin-left: 1.5em;
-        margin-right: 1.5em;
+        margin-left: 3em;
+        margin-right: 3em;
     }
 
     .feature-list{
