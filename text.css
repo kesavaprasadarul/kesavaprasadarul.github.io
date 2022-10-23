@@ -41,21 +41,21 @@
 }
 
 .large{
-    font-size: 64;
+    font-size: 4em;
 }
 
 .sublarge{
-    font-size: 48;
+    font-size: 3em;
 }
 
 .medium{
-    font-size: 24;
+    font-size: 1.5em;
 }
 
 .submedium{
-    font-size: 20;
+    font-size: 1.25em;
 }
 
 .small{
-    font-size: 12;
+    font-size: 0.75em;
 }
