@@ -1,6 +1,7 @@
 @import url('gallery.css');
 @import url('text.css');
 @import url('scrollsnap.css');
+@import url('mobile.css');
 
 
 #secondsub{
@@ -33,6 +34,14 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
     opacity: 0;
+}
+
+.black{
+    background-color: #101010 !important;
+}
+
+.red{
+    background-color: red !important;
 }
 
 /* experiements above */
@@ -105,17 +114,41 @@ ul{
     display: flex;
 }
 
+.flex.gap{
+    gap: 1em;
+}
+
+.flexwrap{
+    flex-wrap: wrap;
+}
+
+.hackathoncardcontainer{
+    flex-direction: row;
+}
+
+.hackathoncard{
+    min-width: 350px; 
+    max-width: 400px;
+    border: 2px; 
+    border-color: #444444; 
+    border-style: solid; 
+    padding: 1em;
+    border-radius: 0.5em;
+    align-self: flex-start;
+}
+
 .header.start{
-    margin-left: 48px;
+    background-color: transparent;
 }
 
 .header.name{
-    margin-left: 44px; 
+    margin-left: -4px;
     margin-top: 8px;
 }
 
 .runner{
     position:absolute;
+    overflow-wrap: break-word;
 }
 
 .top0{
@@ -145,6 +178,7 @@ ul{
 }
 
 .sidebar.subtext{
+    position: unset; 
     opacity: 0.5; 
     font-size: 12px; 
     font-weight: 100;
@@ -163,13 +197,12 @@ ul{
 }
 
 .feature.header{
-    font-weight:200; 
-    opacity: 0.5;  
-    margin-top: 6px;
+    font-weight: 200; 
+    opacity: 0.5;      
 }
 
 .feature.text{
-    margin-top: 8px; 
+    margin-top: 8px;; 
     margin-bottom: 48px;
 }
 
@@ -186,11 +219,11 @@ ul{
 }
 
 .gradient {
-    background: -webkit-linear-gradient(bottom, black 60%, transparent);
-    background: -moz-linear-gradient(bottom, black 60%, transparent);
-    background: -ms-linear-gradient(bottom, black 60%, transparent);
-    background: -o-linear-gradient(bottom, black 60%, transparent);
-    background: linear-gradient(bottom, black 60%, transparent);
+    background: -webkit-linear-gradient(bottom, #101010 60%, transparent);
+    background: -moz-linear-gradient(bottom, #101010 60%, transparent);
+    background: -ms-linear-gradient(bottom, #101010 60%, transparent);
+    background: -o-linear-gradient(bottom, #101010 60%, transparent);
+    background: linear-gradient(bottom, #101010 60%, transparent);
   }
 
 .center-v{
@@ -198,35 +231,71 @@ ul{
 }
 
 .mleft{
-    margin-left: 12px;
+    margin-left: 0.75em;
 }
 
 .mright{
-    margin-right: 12px;
+    margin-right: 0.75em;
 }
 
 .mbottom{
-    margin-bottom: 12px;
+    margin-bottom: 0.75em;
 }
 
 .mtop{
-    margin-top: 12px;
+    margin-top: 0.75em;
 }
 
 .mleft-l{
-    margin-left: 48px;
+    margin-left: 3em;
 }
 
 .mright-l{
-    margin-right: 48px;
+    margin-right: 3em;
 }
 
 .mbottom-l{
-    margin-bottom: 48px;
+    margin-bottom: 3em;
 }
 
 .mtop-l{
-    margin-top: 48px;
+    margin-top: 3em;
+}
+
+.mvert{
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+}
+
+.mhorz{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+
+.mvert-l{
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.mhorz-l{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.opacity09{
+    opacity: 0.9;
+}
+
+.opacity08{
+    opacity: 0.8;
+}
+
+.opacity07{
+    opacity: 0.7;
+}
+
+.opacity06{
+    opacity: 0.6;
 }
 
 .opacity05{
@@ -246,6 +315,10 @@ ul{
 
 .align.center{
     text-align: center;
+}
+
+.emphasistext{
+    font-size: 1.5em;
 }
 
 
