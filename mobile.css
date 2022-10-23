@@ -17,7 +17,7 @@
     }
     
     .small{
-        font-size: 0.5em;
+        font-size: 0.75em;
     }
 
     .mleft{
@@ -34,6 +34,11 @@
     
     .mtop{
         margin-top: 0.5em;
+    }
+    
+    
+    .mtop-s{
+        margin-top: 0.25em;
     }
     
     .mleft-l{
@@ -107,6 +112,12 @@
         flex-direction: column;
         scroll-snap-align: start;  
         scroll-snap-stop: always;
+    }
+
+        
+    .sticky{
+        position: relative !important;
+        z-index: unset;
     }
 
 }
